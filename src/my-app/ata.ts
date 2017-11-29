@@ -2,7 +2,7 @@ import { Matricula } from './matricula';
 import { Turma } from './turma';
 
 export class Ata {
-  lista: Matricula [];
+  lista: string [];
   
   constructor() {
     this.clean();
